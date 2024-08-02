@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #972727;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #f31e1e;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .post {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post p {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="About.html">About</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>First Blog Post</h2>
+            <p>Published on <time datetime="2024-08-02">August 2, 2024</time></p>
+            <p>This is the content of the first blog post. You can write about anything you like here, share your thoughts, experiences, or news.</p>
+        </div>
+        <div class="post">
+            <h2>Second Blog Post</h2>
+            <p>Published on <time datetime="2024-07-28">July 28, 2024</time></p>
+            <p>This is the content of the second blog post. Feel free to expand this template with more posts, images, or other content.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Naveen Benny. All rights reserved.</p>
+    </footer>
+</body>
+</html>
